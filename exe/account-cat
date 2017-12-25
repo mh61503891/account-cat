@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 
-require 'account-cat'
+require 'account-cat/cli'
+AccountCat::CLI.start(ARGV)
